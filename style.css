@@ -60,6 +60,10 @@ body {
     padding: 20px;
     background: #E3E6F3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 #navbar{
@@ -125,12 +129,21 @@ body {
   font-size: 16px;
 }
 
-#pic{
-  /*background-image: url(picture/PS.jpg);
-  height: 120vh;
-  width: 100%;
-  background-size: cover;*/
+#feature h5{
   text-align: center;
-  font-size: larger;
   margin-top: 5%;
-} 
+  font-size: larger;
+}
+
+#feature img{
+  width: 200px;
+  height: 160px;
+}
+
+#feature .fe-box {
+  width: 250px;
+  text-align: center;
+  padding: 25px 15px;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+  border: 1px solid #cce7d0;
+}
